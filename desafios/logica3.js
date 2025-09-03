@@ -1,3 +1,4 @@
+// Classe Construtora
 class Heroi {
   constructor(nome, idade, tipo) {
     this.nome = nome;
@@ -35,4 +36,5 @@ const herois = [
 // Executar ataques com laço de repetição
 for (let h of herois) {
   h.atacar();
+
 }
